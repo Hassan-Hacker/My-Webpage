@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>None of ur business</title>
+<meta charset="UTF-8">
+<meta name="description" content="My interactive page">
+  <meta name="keywords" content="regestration,author\'s information">
+  <meta name="author" content="Hassan Ahmed">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+form {
+  display: block;
+  margin-top: 0em;
+}
+	h1{color:red};
+	h3{color:blue};
+</style>
+</head>
+<body dir="ltr">
+<center>
+<p><h1>Hi there!&#128514;</h1></p>
+<HR size="8%", color="blue", width="35%"/>
+<table border="3">
+<tr>
+<td>MY Name</td>
+<td>Is</td>
+<td>Hassan</td>
+</tr>
+<tr>
+<td><br /></td>
+<td colspan="2"><br /></td>
+</tr>
+</table>
+<br><br><br>
+<form action="C:\Users\MEN\Documents\New folder.php" method="get" onSubmit="myFunction()">
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname" placeholder="Your first name"><br><br>
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname" placeholder="Your last name">
+<br><br><br>
+Age:
+<input type="date">
+<br><br><br>
+Current address:
+<input type="text" placeholder="Your address">
+<br><br><br>
+E-mail:
+<input type="email" placeholder="Write your e-mail">
+<br><br><br>
+Male
+<input type="radio" name="a">
+<br><br>
+Female
+<input type="radio" name="a">
+<br><br><br>
+<input type="submit" value="Submit">
+&nbsp &nbsp &nbsp
+<input type="reset" value="Reset">
+</form>
+</center>
+<br><br><br>
+<Img src="C:\Users\MEN\Desktop\Myimg.jpg", width="200", height="200" alt="This is my photo!"><br>
+<a href="http://www.Hassan_Mashaal.com/" target="_blank">This is my site</a><br>
+<p align="left" style="font-size:50px">
+<h3>My personal info&#10084;&#65039;:</h3>
+<ul>
+<li>My age: 17</li>
+<li>My birthdate: 2005/4/8</li>
+<li>My current address: Alrashideya3/Ajman/UAE</li>
+<li>Place of birth: Esmailia/Egypt</li>
+<li>Call me at:<br>Phone number: +201027447861<br>E-mail: hassanmashaal2005@gmail.com</li>
+</ul>
+</p>
+<script language="Javascript">
+document.bgColor='powderblue'
+var name1;
+name1=prompt("write your name here");
+function sayHello(name1) {
+  alert("Hello:" + name1);
+}
+sayHello(name1);
+function myFunction() {
+	alert("Your informations has been submitted successfully");
+}
+</script>
+</body>
+</html>
